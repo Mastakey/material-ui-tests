@@ -10,6 +10,8 @@ import CenterGrid from "./components/Grid/Center";
 import LoginForm from './components/Forms/Login';
 //Nav
 import AppBarSimple from './components/Nav/AppBarSimple';
+//Expander
+import Expander from './components/Expanders/Expander';
 
 function App() {
   return (
@@ -21,6 +23,8 @@ function App() {
       <LoginForm />
       <Header title="Nav" />
       <AppBarSimple />
+      <Header title="Expanders" />
+      <Expander />
     </div>
   );
 }
